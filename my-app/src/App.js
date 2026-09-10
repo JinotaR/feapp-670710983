@@ -14,7 +14,7 @@ const members = [
 function App() {
   return (
     <div className="container">
-      <h1>สมาชิกกลุ่มของเรา</h1>
+      <h1>สมาชิกกลุ่มของเรา!</h1>
       <div className="card-row">
         {members.map((m) => (
           <ProfileCard
